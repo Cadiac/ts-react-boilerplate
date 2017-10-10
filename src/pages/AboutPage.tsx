@@ -2,14 +2,13 @@ import * as React from 'react';
 
 import Header from '../containers/Header';
 import Footer from '../components/Footer';
-import HelloAsia from '../components/HelloAsia';
 
-const HelloPage = () => (
+const AboutPage = () => (
   <div className="hello">
     <Header />
-    <HelloAsia />
+    <h1>About</h1>
     <Footer />
   </div>
 );
 
-export default HelloPage;
+export default AboutPage;
